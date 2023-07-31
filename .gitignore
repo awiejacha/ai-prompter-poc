@@ -1,0 +1,6 @@
+_docker
+!_docker/.gitkeep
+back/contexts
+!back/contexts/.gitkeep
+node_modules
+.idea

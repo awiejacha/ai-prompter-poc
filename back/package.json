@@ -1,0 +1,33 @@
+{
+  "name": "poc-ai-prompter",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "src/cli/completion.mjs",
+  "scripts": {
+    "start": "node src/api/server.mjs",
+    "completion": "node src/cli/completion.mjs",
+    "training": "node src/cli/training.mjs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fastify/cors": "^8.3.0",
+    "colors": "^1.4.0",
+    "commander": "^7.2.0",
+    "fastify": "^4.17.0",
+    "fluent-json-schema": "^4.1.0",
+    "minimist": "^1.2.8",
+    "openai": "^3.3.0",
+    "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {
+    "eslint": "^8.40.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-import": "^2.27.5",
+    "prettier": "^2.8.8"
+  }
+}

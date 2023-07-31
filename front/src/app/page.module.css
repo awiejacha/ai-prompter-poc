@@ -1,0 +1,14 @@
+.main {
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6rem;
+  min-height: 100vh;
+}
+
+.center {
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding: 4rem 0;
+}
